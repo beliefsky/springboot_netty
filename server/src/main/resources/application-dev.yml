@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    sql-script-encoding: utf-8
+    url: jdbc:postgresql://localhost:5432/db_beliefsky?serverTimezone=GMT%2b8&characterEncoding=utf8&useUnicode=true
+    username: postgres
+    password: 123456
+    driver-class-name: org.postgresql.Driver
+  hikari:
+    pool-name: demo
+    connection-test-query: SELECT 1
+    minimum-idle: 3
+    maximum-pool-size: 15
+    idle-timeout: 60000
+    max-lifetime: 1800000
+    connection-timeout: 30000
+    read-only: false
+mybatis:
+  configuration:
+    cache-enabled: true
+    lazy-loading-enabled: true
+    multiple-result-sets-enabled: true
+    map-underscore-to-camel-case: true
