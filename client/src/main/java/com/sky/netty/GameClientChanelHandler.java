@@ -1,4 +1,4 @@
-package com.sky.demo;
+package com.sky.netty;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.socket.SocketChannel;

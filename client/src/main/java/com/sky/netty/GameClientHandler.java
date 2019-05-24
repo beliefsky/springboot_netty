@@ -1,4 +1,4 @@
-package com.sky.demo;
+package com.sky.netty;
 
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;

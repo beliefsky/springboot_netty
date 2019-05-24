@@ -1,4 +1,4 @@
-package com.sky.demo;
+package com.sky.netty;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;
