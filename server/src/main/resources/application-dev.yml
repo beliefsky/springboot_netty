@@ -21,3 +21,9 @@ mybatis:
     lazy-loading-enabled: true
     multiple-result-sets-enabled: true
     map-underscore-to-camel-case: true
+netty:
+    config:
+      port: 8080
+      backlog: 1024
+logging:
+  config: classpath:log4j2.xml

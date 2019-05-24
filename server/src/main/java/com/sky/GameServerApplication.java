@@ -20,6 +20,6 @@ public class GameServerApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        gameServer.run(8080);
+        gameServer.run();
     }
 }
