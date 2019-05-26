@@ -37,8 +37,8 @@
             <version>${mybatis-spring-boot-starter.version}</version>
             <exclusions>
                 <exclusion>
-                    <groupId>org.apache.tomcat</groupId>
-                    <artifactId>tomcat-jdbc</artifactId>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-jdbc</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
